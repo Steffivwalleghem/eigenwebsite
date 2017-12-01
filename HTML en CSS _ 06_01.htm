@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)file:///Users/steffivanwalleghem/Desktop/Handboek_HTML5_CSS3_editie4_voorbeeldcode/06_01%20tabellen.html -->
+<html lang="nl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML en CSS | 06_01</title>
+	<link rel="stylesheet" href="./HTML en CSS _ 06_01_files/06_01.css">
+</head>
+<body>
+
+<table>
+	<tbody><tr>
+		<td>1995</td>
+		<td>1997</td>
+		<td>1998</td>
+		<td>1999</td>
+		<td>2014</td>
+		<td>2016</td>
+		<td>2018 ?</td>
+	</tr>
+	<tr>
+		<td>HTML 2.0</td>
+		<td>HTML 3.2</td>
+		<td>HTML 4.0</td>
+		<td>HTML 4.01</td>
+		<td>HTML5</td>
+		<td>HTML5.1</td>
+		<td>HTML5.2</td>
+	</tr>
+</tbody></table>
+
+<table border="1">
+<thead>
+	<tr>
+	<th colspan="4">Prehistorie</th>
+	<th colspan="4">Moderne tijd</th>
+	</tr>
+</thead>
+	<tbody><tr>
+		<td>1995</td>
+		<td>1997</td>
+		<td>1998</td>
+		<td>1999</td>
+		<td>2014</td>
+		<td>2016</td>
+		<td>2018 ?</td>
+	</tr>
+	<tr>
+		<td>HTML 2.0</td>
+		<td>HTML 3.2</td>
+		<td>HTML 4.0</td>
+		<td>HTML 4.01</td>
+		<td>HTML5</td>
+		<td>HTML5.1</td>
+		<td>HTML5.2</td>
+	</tr>
+</tbody></table>
+
+<table border="1">
+	<caption>
+		<p>Tabel 1. Tijdlijn van HTML-specificaties.</p>
+	</caption>
+<thead>
+	<tr>
+	<th colspan="4">Prehistorie</th>
+	<th colspan="4">Moderne tijd</th>
+	</tr>
+</thead>
+	<tbody><tr>
+		<td>1995</td>
+		<td>1997</td>
+		<td>1998</td>
+		<td>1999</td>
+		<td>2014</td>
+		<td>2016</td>
+		<td>2018 ?</td>
+	</tr>
+	<tr>
+		<td>HTML 2.0</td>
+		<td>HTML 3.2</td>
+		<td>HTML 4.0</td>
+		<td>HTML 4.01</td>
+		<td>HTML5</td>
+		<td>HTML5.1</td>
+		<td>HTML5.2</td>
+	</tr>
+</tbody></table>
+
+<table border="1">
+	<caption>
+		<p>Tabel 1. Tijdlijn van HTML-specificaties.</p>
+	</caption>
+	<colgroup>
+		<col span="4">
+		<col span="3">
+	</colgroup>
+	<!-- alternatieve methode
+		<colgroup span="4"></colgroup>
+		<colgroup span="3"></colgroup>
+	-->
+<thead>
+	<tr>
+	<th colspan="4">Prehistorie</th>
+	<th colspan="4">Moderne tijd</th>
+	</tr>
+</thead>
+	<tbody><tr>
+		<td>1995</td>
+		<td>1997</td>
+		<td>1998</td>
+		<td>1999</td>
+		<td>2014</td>
+		<td>2016</td>
+		<td>2018 ?</td>
+	</tr>
+	<tr>
+		<td>HTML 2.0</td>
+		<td>HTML 3.2</td>
+		<td>HTML 4.0</td>
+		<td>HTML 4.01</td>
+		<td>HTML5</td>
+		<td>HTML5.1</td>
+		<td>HTML5.2</td>
+	</tr>
+</tbody></table>
+
+<table border="">
+	<tbody><tr>
+		<th> 
+		</th><th>Product 1</th>
+		<th>Product 2</th>
+		<th>Product 3</th>
+	</tr>
+	<tr>
+		<th>Kenmerk 1</th>
+		<td>ja</td>
+		<td>ja</td>
+		<td>nee</td>
+	</tr>
+	<tr>
+		<th>Kenmerk 2</th>
+		<td>ja</td>
+		<td>ja</td>
+		<td>ja</td>
+	</tr>
+	<tr>
+		<th>Kenmerk 3</th>
+		<td>nee</td>
+		<td>nee</td>
+		<td>ja</td>
+	</tr>
+</tbody></table>
+
+<table border="1">
+	<caption>
+	<p>Tabel 1</p>
+	<p>Voorbeeld met alle tabelelementen en het overspannen van rijen en kolommen.</p>
+	</caption>
+	<thead>
+		<tr>
+			<th colspan="4">De kop van de tabel</th>
+			<th>Laatste kolom</th>
+		</tr>
+		<tr>
+			<td colspan="4">Onderkop</td>
+			<td>Onderkop</td>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td>totaal 1</td>
+			<td>totaal 2</td>
+			<td>totaal 3</td>
+			<td>totaal 4</td>
+			<td>totaal 5</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr>
+			<th colspan="4">Tussenkop over 4 kolommen</th>
+			<th>Tussenkop</th>
+		</tr>
+		<tr>
+			<td>kolom 1</td>
+			<td>kolom 2</td>
+			<td>kolom 3</td>
+			<td>kolom 4</td>
+			<td rowspan="2">kolom 5, 2 rijen</td>
+		</tr>
+		<tr>
+			<td>kolom 1</td>
+			<td>kolom 2</td>
+			<td>kolom 3</td>
+			<td>kolom 4</td>
+		</tr>
+	</tbody>
+	<tbody>
+		<tr>
+			<th colspan="4">Tussenkop over 4 kolommen</th>
+			<th>Tussenkop</th>
+		</tr>
+		<tr>
+			<td>kolom 1</td>
+			<td>kolom 2</td>
+			<td>kolom 3</td>
+			<td>kolom 4</td>
+			<td rowspan="2">kolom 5, 2 rijen</td>
+		</tr>
+		<tr>
+			<td>kolom 1</td>
+			<td>kolom 2</td>
+			<td>kolom 3</td>
+			<td>kolom 4</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+</body></html>
